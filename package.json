@@ -23,7 +23,7 @@
     "commander": "^13.1.0"
   },
   "bin": {
-    "adp-cli": "./index.js"
+    "adp-cli": "./bin/index.js"
   },
   "type": "module"
 }

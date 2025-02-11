@@ -1,0 +1,29 @@
+{
+  "name": "adp-cli",
+  "version": "1.0.0",
+  "description": "Display EDS pages from your local file system",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdobeDocs/adp-cli.git"
+  },
+  "author": {
+    "name": "Tim Kim",
+    "url": "https://github.com/timkim"
+  },
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/AdobeDocs/adp-cli/issues"
+  },
+  "homepage": "https://github.com/AdobeDocs/adp-cli#readme",
+  "dependencies": {
+    "commander": "^13.1.0"
+  },
+  "bin": {
+    "adp-cli": "./index.js"
+  },
+  "type": "module"
+}
